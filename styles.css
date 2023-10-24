@@ -1,0 +1,74 @@
+/* Загальні стилі для всього сайту */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Стилі для хедера (1) */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Стилі для кнопки "Пошук" */
+.navbar .btn-primary {
+    background-color: #ff6600;
+    border: none;
+}
+
+.navbar .btn-primary:hover {
+    background-color: #ff3300;
+}
+
+/* Стилі для логотипу */
+.navbar-brand img {
+    width: 150px; /* Змініть розмір, як вам потрібно */
+    height: auto; /* Забезпечення збереження пропорцій */
+}
+
+/* Стилі для додаткової інформації (2) */
+aside {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Стилі для основної інформації (3) */
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Стилі для блоків з інформацією (3) */
+.content-block {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
+}
+
+.content-block img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Стилі для меню (4) */
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #ddd;
+}
+
+/* Стилі для футера (5) */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
