@@ -26,8 +26,8 @@ header {
 
 
 .navbar-brand img {
-    width: 150px; /* Змініть розмір, як вам потрібно */
-    height: auto; /* Забезпечення збереження пропорцій */
+    width: 150px; 
+    height: auto; 
 }
 
 
